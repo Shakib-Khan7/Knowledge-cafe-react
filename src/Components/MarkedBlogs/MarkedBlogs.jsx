@@ -4,8 +4,8 @@ import './MarkedBLogs.css'
 const MarkedBlogs = (props) => {
     console.log(props.markedBlogs)
     return (
-        <div>
-            <p>{props.markedBlogs.blogTitle}</p>
+        <div className='blog-bookmarked'>
+            <p id='para'>{props.markedBlogs.blogTitle}</p>
             
         </div>
     );

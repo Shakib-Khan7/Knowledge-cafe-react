@@ -1,0 +1,13 @@
+.blog-bookmarked{
+    width: 95%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 7px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    
+}
+#para{
+    font-weight: 700;
+    padding: 20px;
+}
