@@ -10,11 +10,19 @@ const Bookmark = (props) => {
         
         
     }
+    let timeSpent = 0;
+    for(const time of props.timeSpent){
+        timeSpent = timeSpent + time.readTime
+    }
     
    
 
     return (
         <div className='bookmark-container'>
+            <div className='time'>
+                <h4>Spent time on read:{timeSpent}</h4>
+            </div>
+
             <h4 style={{fontWeight:'700',fontFamily:'arial'}}>Bookmarked Blogs:{props.bookmarked.length}</h4>
              <div>
                 {

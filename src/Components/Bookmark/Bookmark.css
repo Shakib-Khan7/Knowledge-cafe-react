@@ -5,3 +5,15 @@
     text-align: center;
     padding: 10px;
 }
+.time{
+    height: 80px;
+    background-color:  rgb(205, 209, 240);
+    opacity: 0.8;
+    border: 1px solid rgb(77, 77, 233);
+    color: rgb(30, 8, 231);
+}
+.time h4{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}

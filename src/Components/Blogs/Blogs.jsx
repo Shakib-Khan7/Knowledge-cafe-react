@@ -7,6 +7,7 @@ import { faBookBookmark, faBookmark, faShoppingCart } from '@fortawesome/free-so
 const Blogs = (props) => {
     const { id, authorName, blogTitle, blogCoverImage, authorImage, readTime, publishedDate } = props.blogs;
     const handleBookMark = props.handleBookMark;
+    const handleTime = props.handleTime;
     return (
 
         <div className='blog-container'>
@@ -26,7 +27,7 @@ const Blogs = (props) => {
                 </div>
             </div>
             <h3 style={{paddingTop:'10px',paddingBottom:'10px',fontWeight:'700'}} >{blogTitle}</h3>
-            <button style={{color:'blue',border:'none',boxShadow:'none', textDecoration:'underline',marginBottom:'50px'}}><a>Mark as read</a></button>
+            <button onClick={()=>handleTime(props.blogs)} style={{color:'blue',border:'none',boxShadow:'none', textDecoration:'underline',marginBottom:'50px'}}><a>Mark as read</a></button>
             <hr />
         </div>
 

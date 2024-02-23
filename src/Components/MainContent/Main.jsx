@@ -6,6 +6,7 @@ import Bookmark from '../Bookmark/Bookmark';
 const Main = () => {
     const [blogs, setBlogs] = useState([]);
     const [bookmarked,setBookmarked] = useState([])
+    const [timeSpent,setTimeSpent] = useState([])
 
     useEffect(() => {
         fetch('blogs.json')
@@ -18,6 +19,13 @@ const Main = () => {
         let newBookmark = [];
         newBookmark=[...bookmarked,blog]
         setBookmarked(newBookmark);
+    }
+    const handleTime = (blog) =>{
+        let timeSpentBlogs = []
+        timeSpentBlogs = [...timeSpent,blog]
+        setTimeSpent(timeSpentBlogs)
+        console.log('added',blog)
+
     }
 
 
@@ -34,12 +42,13 @@ const Main = () => {
                 blogs.map(blog => <Blogs key={blog.id}
                     blogs={blog}
                     handleBookMark={handleBookMark}
+                    handleTime={handleTime}
 
                 ></Blogs>)
             }
             </div>
             <div className='bookmark'>
-                <Bookmark bookmarked={bookmarked}></Bookmark>
+                <Bookmark timeSpent={timeSpent} bookmarked={bookmarked}></Bookmark>
             </div>
 
 
