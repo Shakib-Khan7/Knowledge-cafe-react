@@ -4,6 +4,7 @@
     background-color: rgb(236, 236, 236);
     text-align: center;
     padding: 10px;
+    border-radius: 10px;
 }
 .time{
     height: 80px;
