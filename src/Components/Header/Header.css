@@ -1,0 +1,12 @@
+.header{
+    color: black;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+.header img{
+    height: 45px;
+}

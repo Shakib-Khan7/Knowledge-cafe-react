@@ -1,0 +1,49 @@
+[
+    {
+        "id":1,
+        "authorName":"MD SHAKIB KHAN",
+        "blogTitle" : "How to get your first job as a self taught programmer ",
+        "blogCoverImage" : "../src/images/2.png",
+        "authorImage" : "../src/images/boy1.png",
+        "readTime" : 5,
+        "publishedDate" : "20/6/2023"
+
+    },
+    {
+        "id":2,
+        "authorName":"MD RAHUL ABIR",
+        "blogTitle" : "How to learn DSA in one month",
+        "blogCoverImage" : "../src/images/1.jpg",
+        "authorImage" : "../src/images/boy2.png",
+        "readTime" : 10,
+        "publishedDate" : "20/2/2023"
+
+    },
+    {
+        "id":3,
+        "authorName":"MD SHAKIL KHAN",
+        "blogTitle" : "How to get your first job as a self taught Robot Engineer ",
+        "blogCoverImage" : "../src/images/3.png",
+        "authorImage" : "../src/images/girl1.jpg",
+        "readTime" : 5,
+        "publishedDate" : "20/6/2022"
+
+    },
+    {
+        "id":4,
+        "authorName":"MD SUNEYRA",
+        "blogTitle" : "How to get your first job as a self taught Developer ",
+        "blogCoverImage" : "../src/images/4.jpg",
+        "authorImage" : "../src/images/girl2.jpg",
+        "readTime" : 3,
+        "publishedDate" : "20/6/2021"
+
+    }
+
+
+
+
+
+
+
+]
