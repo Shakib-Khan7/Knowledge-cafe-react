@@ -5,6 +5,7 @@ import MarkedBlogs from '../MarkedBlogs/MarkedBlogs';
 const Bookmark = (props) => {
     let addedBlogs =[]
     for(const blog of props.bookmarked){
+        
         addedBlogs.push(blog)
         
         

@@ -3,3 +3,12 @@
     grid-template-columns: 2fr 1fr;
     gap: 40px;
 }
+@media screen  and (max-width:600px) {
+    .all-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+
+    }
+    
+}
